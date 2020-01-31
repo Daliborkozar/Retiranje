@@ -3,3 +3,6 @@ Project for a trailer rental - structure of the website - waiting for material(t
 
 This project is still waiting for the client to provide text and images so i can finish it, but for me it was a great
 chance to make a responsive website with CSS Grid.
+
+The client is in fact the direct competition for a trailer rental website that i made and where i run marketing campaigns.
+
