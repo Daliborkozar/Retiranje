@@ -283,6 +283,15 @@ h1, h2, strong {
     margin-bottom: 3em;
     box-shadow: 5px 5px 0 black, 10px 10px 0 yellow;;
     
+    
+}
+
+.main2-image{
+    grid-column: 2 / -2;
+    width: 100%;
+    margin-bottom: 3em;
+    box-shadow: 5px 5px 0 black, 10px 10px 0 yellow;;
+    
 }
 
 .main-text {
