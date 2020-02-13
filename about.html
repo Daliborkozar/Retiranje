@@ -1,69 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Rentiraj Prikolicu</title>
+        <title>Rent-a-prikolica: o nama</title>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=WINDOWS-1250">
         <!-- viewport meta to render pages on mobile properly -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- link to google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
-         <!-- link to font awesome -->
-        <script src="https://kit.fontawesome.com/169e7c3dd7.js" crossorigin="anonymous"></script>
+        
+        <!-- https://cdnjs.com/libraries/font-awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+        
         <!-- link to my CSS -->
-        <link href="./css/styles.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
     </head>
-    <body>
-        <header class="header main-grid" >
-                <div class="header-content">
-                    <a class="logo-link" href="index.html">
-                        <img src="img/logo.png" alt="" class="logo">
-                    </a>
-                    <button aria-label="Open navigation" class="open-btn">&#9776;</button>
+     <body>
+        <header class="header main-grid">
+            <div class="header-content">
+                <a class="logo-link" href="index.html">
+                    <img src="img/logo.png" alt="logo" class="logo">
+                </a>
+                <button aria-label="Open navigation" class="open-nav">&#9776;</button>
 
-                    <nav class="nav">
-                        <button aria-label="Close navigation" class="close-btn">&times;</button>
-                        <ul class="nav-list">
-                            <li class="nav-item"><a href="index.html" class="nav-link">Pocetna</a></li>
-                            <li class="nav-item"><a href="about.html" class="nav-link">O nama</a></li>
-                            <li class="nav-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                <nav class="nav"> 
+                    <button aria-label="Close navigation" class="close-nav">&times;</button>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link current">Početna</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">O nama</a></li>
+                        <li class="nav-item"><a href="prikolice.html" class="nav-link">Prikolice</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
+                    </ul>
+                </nav>
+                
+                
+            </div>
         </header>
         
-    <main class="main-grid">
-
-            <h1 class="page-title">O nama</h1>
-            <p class="subtitle">dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-
-            <img class="main-image" src="./img/auto-prikolica-abus.jpg" alt="auto prikolica">
+        <main class="main-template main-grid">
+            
+            <h1 class="page-title">O nama.</h1>
+            <p class="subtitle">Mi smo mala firma iz Zemuna. Bavimo se ovim poslom više od 10 godina </p>
+            
+            <img class="main-image" src="img/mainimage.jpg" alt="iznajmljivanje auto prikolica">
             
             <div class="main-text">
-                <h2 class="section-title">Kvalitetna usluga</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt arcu non sodales neque sodales ut etiam. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt arcu non sodales neque sodales ut etiam. </p>
-                <h2 class="section-title">Najnoviji modeli prikolica</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt arcu non sodales neque sodales ut etiam. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt arcu non sodales neque sodales ut etiam. </p>
+                <h2 class="section-title">Mi smo zaista sjajna ekipa</h2>
+                <p>Od prvog dana kako smo krenuli vodili smo se jasnom idejom da pružimo najbolju uslugu iznajmljivanja prikolica u gradu, s godinama povećavali smo kvalitet prikolica i doveli uslugu na profesionalni nivo gde je mušterija na prvom mestu.</p>
+                <h2 class="section-title">Možemo se sve dogovoriti sa lakoćom</h2>
+                <p>Dogovor je lak, jedan poziv rešava sve, dobijate prikolicu, svu prateću opremu, osiguranje i spremni ste za put.</p>
+                <p>Naravno ukoliko nemate iskustva tu smo da vam prižimo sve informacije i uputstva za svaki vid transporta kao i zakonsku regulativu kako kod nas tako i u evropi</p>
             </div>
-            
         
         </main>
         
-        
-        <footer class="footer main-grid" >
-            <div class="footer-main ">
-                <img src="img/logo.png" alt="" class="footer-logo">
-                <p class="footer-text">Iznajmi prikolicu proverenog kvaliteta i sigurnosti po svim standardima EU, sajtu je potrebno jos tekstova i slika da bi bio gotov</p>
-                <p class="footer-fineprint">© Rentaj Prikolicu 2019</p>
+        <footer class="footer main-grid">
+            <div class="footer-main">
+                <img src="img/logo.png" alt="logo image footer" class="footer-logo">
+                <p class="footer-text">Iznajmi prikolicu proverenog kvaliteta i sigurnosti po svim standardima EU, 13 godina sa vama na usluzi.</p>
+                <p class="footer-fineprint">© Rent-a-prikolica 2020 </p>
             </div>
             <ul class="social-list">
-                <li class="social-item"><a href="" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
-                <li class="social-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-                <li class="social-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                <li class="social-item"><a href="https://www.facebook.com/rentiranjeprikolicazemunpolje/" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+               
+                <li class="social-item"><a href="https://www.instagram.com/rentiranjeprikolicazemunpolje/" class="social-link"><i class="fab fa-instagram"></i></a></li>
             </ul>
-    </footer>
-
-    <script src="./nav.js"></script>
+        </footer>
+        
+        
+        <script src="script.js"></script>
     </body>
 </html>
